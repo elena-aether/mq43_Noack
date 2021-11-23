@@ -481,7 +481,7 @@ padding-bottom: 20px;
     }
     .card-name {
       font-size: 20px;
-      margin-top: 11px 0 36px 0;
+      margin: 11px 0 36px 0;
     }
   }
 
@@ -496,7 +496,7 @@ padding-bottom: 20px;
 
      .card-name {
       font-size: 17px;
-      margin-top: 11px 0 36px 0;
+      margin: 11px 0 36px 0;
     }
   }
 
@@ -1070,7 +1070,6 @@ padding-bottom: 20px;
   font-family: OpenSans;
   src: url(../fonts/OpenSans-Bold.woff) format("woff"); 
   font-weight: 700;
-  font-style: bold;
   }
   
   .socials-link-text {
