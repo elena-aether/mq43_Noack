@@ -4,15 +4,6 @@ body {
   font-family: OpenSans, sans-serif;
   }
   
-/*.perfectpixel {
-background-image: url(../NOEMI_mq_desktop.jpg);
-background-image: url(../NOEMI_mq_tablet.jpg);
-background-image: url(../NOEMI_mq_mobile.jpg);
-background-position: top left;
-background-repeat: no-repeat;
-opacity: 0.5;
-  }*/
-  
   .header {
     color: white;
     background-color: #000000;
@@ -45,7 +36,6 @@ opacity: 0.5;
     }
       }
 
-  
   .header::after {
   content: ""; 
   background-color: rgba(0, 0, 0, .6);
@@ -742,7 +732,7 @@ padding-bottom: 20px;
   } 
   }
   
-  
+
   .field {
     -webkit-appearance: none;
     appearance: none;
@@ -1011,7 +1001,6 @@ padding-bottom: 20px;
     }
   }
   
-  
   .social-media-items {
    display: flex;
    align-items: center;
@@ -1022,7 +1011,7 @@ padding-bottom: 20px;
     margin: 0;
     padding: 32px 0;
   }
-  
+
   
   .social-media-item {
     vertical-align: middle;
@@ -1199,31 +1188,31 @@ padding-bottom: 20px;
     outline: 1px solid #b59f5b;
     outline-offset: 0; }
 
-    .radio-container {
-        display: flex;
-        margin-top: 10px;
+  .radio-container {
+    display: flex;
+    margin-top: 10px;
     }
 
-    .radio-group-text {
-      margin-right: 15px;
+  .radio-group-text {
+    margin-right: 15px;
     }
 
     .radio-group-text::before {
-         content: "";
-        display: inline-block;
-        vertical-align: middle;
-          width: 20px;
-          height: 20px;
-          background-image: url(../svg/form-empty-circle.svg);
-          background-position: center center;
-        background-size: 20px;
-        margin-right: 5px;
-        }
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url(../svg/form-empty-circle.svg);
+    background-position: center center;
+    background-size: 20px;
+     margin-right: 5px;
+    }
 
-        .radio:checked ~ .radio-group-text::before {
-          background-image: url(../svg/form-circle.svg)
-          }
+   .radio:checked ~ .radio-group-text::before {
+    background-image: url(../svg/form-circle.svg)
+    }
 
-          .radio {
-            display: none;
-          }
+    .radio {
+     display: none;
+    }
