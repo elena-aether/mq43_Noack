@@ -768,8 +768,10 @@ padding-bottom: 20px;
   }
   
   .label {
-    display: none;
-  }
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;  }
   
   .tags {
     display: flex;
@@ -1062,8 +1064,10 @@ padding-bottom: 20px;
   }
   
   .socials-link-text {
-    display: none;
-  }
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;  }
   
   .copywrite {
   font-weight: 700;
@@ -1214,5 +1218,8 @@ padding-bottom: 20px;
     }
 
     .radio {
-     display: none;
-    }
+      width: 1px;
+      height: 1px;
+      clip: rect(1px, 1px, 1px, 1px);
+      position: absolute;
+        }
